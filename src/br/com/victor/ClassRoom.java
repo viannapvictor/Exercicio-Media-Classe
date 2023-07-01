@@ -23,7 +23,7 @@ public class ClassRoom {
         System.out.println("Digite sua 4º nota: ");
         double num4 = s.nextDouble();
 
-        double avg = (num1 + num2 + num3 + num4)/4;
+        Double avg = (num1 + num2 + num3 + num4)/4;
 
         String isApproved = avg >= 7 ? "Aprovado" : "Reprovado";
 
